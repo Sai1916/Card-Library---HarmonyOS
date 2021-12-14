@@ -8,6 +8,22 @@
     margin: 12px 0px;
     box-shadow: 2px 0px 28px -6px rgba(0,0,0,0.69);
 }
+.card{
+    width:340px;
+    height:240px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 12px 0px;
+    box-shadow: 2px 0px 28px -6px rgba(0,0,0,0.69);
+}
+.pickerdatetime{
+    width:30px;
+    height:30px;
+    display:flex;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-36.png');
+}
 .topContainer{
     display: flex;
     align-items:center;

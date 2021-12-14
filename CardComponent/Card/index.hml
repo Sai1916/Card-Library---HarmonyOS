@@ -1,12 +1,12 @@
-<div class="container">
+<div class="{{ type }}">
     <div class="topContainer">
         <div class="textContainer">
             <text class="name">{{name}}</text>
             <text class="spec">{{specialization}}</text>
             <div class="bottomTextContainer">
-                <image class="cicon" src="data:image/png;base64,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"/>
-                <text class="text">13/12/2021</text>
-                <text class="text">12:00</text>
+                <picker id="picker_datetime" type="datetime" value="{{datetimevalue}}" selected="{{datetimeselect}}" hours="24" lunarswitch="true"
+                        onchange="datetimeonchange" oncancel="datetimeoncancel" class="pickerdatetime"></picker>
+                <text class="text">{{datetimevalue}}</text>
             </div>
         </div>
 
