@@ -1,0 +1,5 @@
+<element name="Card" src="../../../../../../../../node_modules/CardComponent/Card/index.hml"></element>
+
+<div class="container">
+    <Card type="article" name="The developer guide" sub_title="5 days ago" desc="This is a sample article. Please use this library to get awesome article components." likes="300" views="967" btncolor="gray" image="https://static4.depositphotos.com/1004590/372/i/600/depositphotos_3729494-stock-photo-new-paper-article.jpg"></Card>
+</div>

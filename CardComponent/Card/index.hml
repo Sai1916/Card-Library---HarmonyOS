@@ -13,7 +13,7 @@
                     <text class="{{view}}">👁 {{views}} views</text>
                 </div>
                 <div class="{{readMore}}">
-                    <text class="readMoreText">Read More →</text>
+                    <text class="{{ readMoreText }}" style="background-color:{{btncolor}}">Read More →</text>
                 </div>
             </div>
         </div>

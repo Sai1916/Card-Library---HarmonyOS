@@ -1,0 +1,5 @@
+<element name="Card" src="../../../../../../../../node_modules/CardComponent/Card/index.hml"></element>
+
+<div class="container">
+   <Card type="appointment-card" name="Sai Sumedh" sub_title="Dental" image="https://lh3.googleusercontent.com/ogw/ADea4I5L0IsuKGGz3Ne1DGm44fm2W3x2zq9vS9kiMlDP3A=s32-c-mo"></Card>
+</div>

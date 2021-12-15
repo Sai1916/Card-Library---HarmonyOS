@@ -18,7 +18,7 @@ export default {
         view:"",
         valueContainer:"",
         readMore:"",
-//        titleContainer:"",
+        readMoreText:"",
     },
     props:{
         type: "",
@@ -28,6 +28,7 @@ export default {
         desc:"",
         likes:"",
         views: "",
+        btncolor:"",
     },
     onInit() {
         if(this.type==="appointment-card"){
@@ -60,6 +61,7 @@ export default {
             this.view="view";
             this.valueContainer="valueContainer";
             this.readMore="readMore";
+            this.readMoreText="readMoreText";
         }
     },
     datetimeonchange(e) {
