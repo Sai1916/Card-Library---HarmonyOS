@@ -94,6 +94,7 @@
 }
 .text{
     font-size:20px;
+    margin-left:14px;
 }
 .dateBlock{
     display:none;
