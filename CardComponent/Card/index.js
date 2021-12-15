@@ -13,6 +13,12 @@ export default {
         pickerdatetime: "",
         dateValue: "",
         description: "",
+        topContainer: "",
+        bottomTextContainer:"",
+        like:"",
+        view:"",
+        valueContainer:"",
+        readMore:"",
     },
     props:{
         type: "",
@@ -20,6 +26,8 @@ export default {
         sub_title: "",
         image: "",
         desc:"",
+        likes:"",
+        views: "",
     },
     onInit() {
         if(this.type==="appointment-card"){
@@ -31,6 +39,10 @@ export default {
             this.bottomContainer="bottomContainer";
             this.pickerdatetime="pickerdatetime";
             this.dateValue="text";
+            this.topContainer="topContainer";
+            this.bottomTextContainer="bottomTextContainer";
+            this.valueContainer="valueContainerBlock";
+            this.readMore="readMoreBlock";
         }
 //        else if(this.type==="card"){
 //            this.container="card";
@@ -45,6 +57,12 @@ export default {
             this.pickerdatetime="pickerBlock";
             this.dateValue="dateBlock";
             this.description="description";
+            this.topContainer="articleTopContainer";
+            this.bottomTextContainer="articleBottomTextContainer"
+            this.like="like";
+            this.view="view";
+            this.valueContainer="valueContainer";
+            this.readMore="readMore";
         }
     },
     datetimeonchange(e) {

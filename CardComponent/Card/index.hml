@@ -1,16 +1,22 @@
 <div class="{{ container }}">
-    <div class="topContainer">
+    <div class="{{ topContainer }}">
         <div class="{{ textContainer }}">
             <text class="{{ title }}">{{name}}</text>
             <text class="{{ subTitle }}">{{sub_title}}</text>
-            <div class="bottomTextContainer">
+            <div class="{{ bottomTextContainer }}">
                 <picker id="picker_datetime" type="datetime" value="{{datetimevalue}}" selected="{{datetimeselect}}" hours="24" lunarswitch="true"
                         onchange="datetimeonchange" oncancel="datetimeoncancel" class="{{ pickerdatetime }}"></picker>
                 <text class="{{ dateValue }}">{{datetimevalue}}</text>
                 <text class="{{description}}">{{desc}}</text>
+                <div class="{{valueContainer}}">
+                    <text class="{{like}}">❤ {{likes}} likes</text>
+                    <text class="{{view}}">👁 {{views}} views</text>
+                </div>
+                <div class="{{readMore}}">
+                    <text class="readMoreText">Read More →</text>
+                </div>
             </div>
         </div>
-
 
         <image class="{{ imageClass }}" src="{{image}}" />
     </div>
