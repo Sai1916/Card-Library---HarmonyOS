@@ -1,7 +1,7 @@
 <div class="{{ container }}">
     <div class="{{ topContainer }}">
         <div class="{{ textContainer }}">
-            <text class="{{ title }}">{{name}}</text>
+                <text class="{{ title }}">{{name}}</text>
             <text class="{{ subTitle }}">{{sub_title}}</text>
             <div class="{{ bottomTextContainer }}">
                 <picker id="picker_datetime" type="datetime" value="{{datetimevalue}}" selected="{{datetimeselect}}" hours="24" lunarswitch="true"

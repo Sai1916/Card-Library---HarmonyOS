@@ -1,5 +1,4 @@
 import prompt from '@system.prompt';
-import articleComp from './article.js';
 
 export default {
     data: {
@@ -19,6 +18,7 @@ export default {
         view:"",
         valueContainer:"",
         readMore:"",
+//        titleContainer:"",
     },
     props:{
         type: "",
@@ -44,9 +44,6 @@ export default {
             this.valueContainer="valueContainerBlock";
             this.readMore="readMoreBlock";
         }
-//        else if(this.type==="card"){
-//            this.container="card";
-//        }
         else if(this.type==="article"){
             this.container="article";
             this.imageClass="article_image";
