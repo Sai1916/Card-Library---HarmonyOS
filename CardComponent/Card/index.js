@@ -1,4 +1,5 @@
 import prompt from '@system.prompt';
+import router from '@system.router';
 
 export default {
     data: {
@@ -29,6 +30,7 @@ export default {
         likes:"",
         views: "",
         btncolor:"",
+        onClick:"",
     },
     onInit() {
         if(this.type==="appointment-card"){
@@ -62,6 +64,7 @@ export default {
             this.valueContainer="valueContainer";
             this.readMore="readMore";
             this.readMoreText="readMoreText";
+            this.onClick="onClick";
         }
     },
     datetimeonchange(e) {
@@ -72,4 +75,18 @@ export default {
     datetimeoncancel() {
         prompt.showToast({ message:"datetimeoncancel" })
     },
+
+    btnClick(){
+        this.$emit('eventType',router.push({
+            uri: 'pages/Article/pages/detail/detail',
+            params:{
+                name: this.name,
+                image: this.image,
+                subTitle: this.sub_title,
+                description: this.desc,
+                likeCount: this.likes,
+                viewCount: this.views,
+            }
+        }));
+    }
 }

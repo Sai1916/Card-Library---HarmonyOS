@@ -1,11 +1,12 @@
 .appointment-card{
-    width:340px;
+    width:95%;
     height:180px;
     border-radius: 30px;
     display:flex;
     flex-direction:column;
     align-items: center;
     margin: 12px 0px;
+    font-family: sans-serif;
     box-shadow: 2px 0px 28px -6px rgba(0,0,0,0.69);
 }
 .card{
@@ -19,10 +20,11 @@
     box-shadow: 2px 0px 28px -6px rgba(0,0,0,0.69);
 }
 .article{
-    width:340px;
+    width:95%;
     height:500px;
     border-radius: 10px;
     display:flex;
+    font-family: sans-serif;
     flex-direction:column;
     margin: 12px 0px;
     box-shadow: 2px 0px 28px -6px rgba(0,0,0,0.69);
@@ -127,6 +129,8 @@
     display:flex;
     align-items:flex-start;
     margin-top:10px;
+    lines: 3;
+    text-overflow: ellipsis
 }
 .valueContainer{
     display: flex;

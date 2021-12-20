@@ -1,0 +1,11 @@
+<div class="container">
+    <image class="imageClass" src="{{image}}"></image>
+    <image src="common/images/backIcon.png" onclick="back" class="back_icon"></image>
+    <text class="title">{{name}}</text>
+    <text class="sub_title">{{subTitle}}</text>
+    <div class="countContainer">
+        <text class="like_count">❤ {{likeCount}} likes</text>
+        <text class="view_count">👁 {{viewCount}} views</text>
+    </div>
+    <text class="description">{{description}}</text>
+</div>

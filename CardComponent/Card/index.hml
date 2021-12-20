@@ -12,7 +12,7 @@
                     <text class="{{like}}">❤ {{likes}} likes</text>
                     <text class="{{view}}">👁 {{views}} views</text>
                 </div>
-                <div class="{{readMore}}">
+                <div class="{{readMore}}" onclick="btnClick">
                     <text class="{{ readMoreText }}" style="background-color:{{btncolor}}">Read More →</text>
                 </div>
             </div>

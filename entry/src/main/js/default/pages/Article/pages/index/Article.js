@@ -1,8 +1,9 @@
+import router from '@system.router';
+import prompt from '@system.prompt';
+
 export default {
-    data: {
-        title: ""
-    },
-    onInit() {
-        this.title = this.$t('strings.world');
+    onClick(){
+        prompt.showToast({message:"hello clicked"});
+        console.log("card clicked");
     }
 }
