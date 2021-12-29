@@ -1,11 +1,9 @@
 <element name="Appointment" src="../Appointment/pages/index/Appointment.hml"></element>
 <element name="Article" src="../Article/pages/index/Article.hml"></element>
-<element name="Card" src="../../../../../../node_modules/CardComponent/Card/index.hml"></element>
+<element name="Card" src="../../../../../../node_modules/cardLibrary/Card/index.hml"></element>
 
 <div class="container">
-<!--    <Card type="appointment-card" name="Sai Sumedh" sub_title="Dental" image="https://lh3.googleusercontent.com/ogw/ADea4I5L0IsuKGGz3Ne1DGm44fm2W3x2zq9vS9kiMlDP3A=s32-c-mo"></Card>-->
-<!--    <Card></Card>-->
-<!--    <Article></Article>-->
     <Article></Article>
-    <Appointment></Appointment>
+    <Appointment></Appointment> 
+    <Card type="profile" name="Sai Sumedh" sub_title="HarmonyOS and React Developer" desc="Creates good looking UI." user="sai1916" btncolor="#5594e6" image="https://lh3.googleusercontent.com/ogw/ADea4I5L0IsuKGGz3Ne1DGm44fm2W3x2zq9vS9kiMlDP3A=s32-c-mo"></Card>
 </div>

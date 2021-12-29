@@ -12,7 +12,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/CardComponent" />
+            <option value="$PROJECT_DIR$/cardLibrary" />
             <option value="$PROJECT_DIR$/entry" />
           </set>
         </option>

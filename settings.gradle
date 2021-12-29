@@ -1,1 +1,1 @@
-include ':entry', ':cardcomponent'
+include ':entry', ':cardlibrary'

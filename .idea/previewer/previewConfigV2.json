@@ -61,13 +61,13 @@
    }
   ],
   "runningProfileList": [
-   "P40"
+   "MateX2"
   ],
   "availableProfileList": [
+   "P40",
    "MatePadPro",
-   "MateX2",
-   "TV",
-   "Watch3"
+   "Watch3",
+   "TV"
   ]
  }
 }

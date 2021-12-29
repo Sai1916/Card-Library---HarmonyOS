@@ -1,4 +1,4 @@
-<element name="Card" src="../../../../../../../../node_modules/CardComponent/Card/index.hml"></element>
+<element name="Card" src="../../../../../../../../node_modules/cardLibrary/Card/index.hml"></element>
 
 <div class="container">
     <Card type="article" @event-type="onClick" name="The Developer Book" sub_title="5 days ago" desc="This is a sample article. Please use this library to get awesome article components.It gives more knowledge than anyone teach us when we read books like this." likes="300" views="967" btncolor="#f6d850" image="https://static4.depositphotos.com/1004590/372/i/600/depositphotos_3729494-stock-photo-new-paper-article.jpg"></Card>

@@ -1,0 +1,53 @@
+<div class="container">
+
+    <div if="{{appointmentCard}}" class="{{appointment_card}}">
+        <div class="topContainer">
+            <div class="textContainer">
+                <text class="name">{{name}}</text>
+                <text class="spec">{{sub_title}}</text>
+                <div class="bottomTextContainer">
+                    <picker id="picker_datetime" type="datetime" value="{{datetimevalue}}" selected="{{datetimeselect}}" hours="24" lunarswitch="true"
+                            onchange="datetimeonchange" oncancel="datetimeoncancel" class="pickerdatetime"></picker>
+                    <text class="text">{{datetimevalue}}</text>
+                </div>
+            </div>
+
+            <image class="image" src="{{image}}" />
+        </div>
+        <div class="bottomContainer">
+            <button class="btn">Submit</button>
+            <button class="btn">Cancel</button>
+        </div>
+    </div>
+
+    <div if="{{article}}" class="{{articleCard}}">
+        <image class="article_image" src="{{image}}" />
+        <div class="articleTopContainer">
+            <div class="articleTextContainer">
+                <text class="title">{{name}}</text>
+                <text class="subTitle">{{sub_title}}</text>
+                <div class="articleBottomTextContainer">
+                    <text class="description">{{desc}}</text>
+                    <div class="valueContainer">
+                        <text class="like">❤ {{likes}} likes</text>
+                        <text class="view">👁 {{views}} views</text>
+                    </div>
+                    <div class="readMore" onclick="btnClick">
+                        <text class="readMoreText" style="background-color:{{btncolor}}">Read More →</text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div if="{{profile}}" class="{{ container }}">
+        <image src="{{image}}" class="pro_image"></image>
+        <text style="color:white;font-weight:bold">{{name}}</text>
+        <text class="subTitle" style="color:lightgray">{{sub_title}}</text>
+        <text class="description" style="color:white">{{desc}}</text>
+        <text style="color:lightgray;font-size:20px">@{{user}}</text>
+        <button class="readMoreText" style="background-color:{{btncolor}}; padding:10px 24px">Hire me</button>
+    </div>
+
+
+</div>
